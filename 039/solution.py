@@ -9,7 +9,7 @@ def triangle_brute_checker(x):
 
 max_counter = 0
 highest_p = 0
-for i in range(1,1001):
+for i in range(2,1001,2):
     if (max_counter < triangle_brute_checker(i)):
         max_counter = triangle_brute_checker(i)
         highest_p = i
