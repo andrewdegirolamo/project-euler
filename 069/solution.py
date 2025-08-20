@@ -26,4 +26,3 @@ for i in range (1,1000001):
         current_max = i/euler_totient(i)
         current_best = i
         print(i)
-print(i)
